@@ -49,17 +49,17 @@ public class part3 {
 
 		List<Float> priceList = new ArrayList<Float>();
 
-		// Iteration all the item cards and then grabbing their prices and adding it to
-		// a List
+		// Iterating all the item cards and then grabbing their prices and adding it to
+		// a list
 		for (WebElement e : itemCards) {
 
 			priceList.add(Float.parseFloat(
 					e.findElement(By.cssSelector("div.inventory_item_price")).getText().split("\\$")[1].trim()));
 		}
 
-		// gettiong the max parice from the items list
+		// Getting the max price from the items list
 		float addToCart = Collections.max(priceList);
-
+		System.out.println(addToCart);
 		// This loop will now match the max price with the respective card and then add
 		// it to cart
 		for (WebElement a : itemCards) {
@@ -67,7 +67,7 @@ public class part3 {
 			float price = Float.parseFloat(
 					a.findElement(By.cssSelector("div.inventory_item_price")).getText().split("\\$")[1].trim());
 			if (price == addToCart) {
-				a.findElement(By.xpath("//button[@name='add-to-cart-sauce-labs-fleece-jacket']")).click();
+				a.findElement(By.cssSelector("button[class='btn btn_primary btn_small btn_inventory']")).click();
 				break;
 			}
 		}

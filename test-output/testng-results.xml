@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-03T18:18:47 IST" name="Default suite" finished-at="2022-02-03T18:18:56 IST" duration-ms="8500">
+  <suite started-at="2022-02-03T20:14:51 IST" name="Default suite" finished-at="2022-02-03T20:15:00 IST" duration-ms="8399">
     <groups>
     </groups>
-    <test started-at="2022-02-03T18:18:47 IST" name="Default test" finished-at="2022-02-03T18:18:56 IST" duration-ms="8500">
+    <test started-at="2022-02-03T20:14:51 IST" name="Default test" finished-at="2022-02-03T20:15:00 IST" duration-ms="8399">
       <class name="challenge.part3">
-        <test-method is-config="true" signature="setDriver()[pri:0, instance:challenge.part3@18d87d80]" started-at="2022-02-03T18:18:47 IST" name="setDriver" finished-at="2022-02-03T18:18:52 IST" duration-ms="5096" status="PASS">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:challenge.part3@18d87d80]" started-at="2022-02-03T20:14:51 IST" name="setDriver" finished-at="2022-02-03T20:14:56 IST" duration-ms="4781" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method signature="addProduct()[pri:0, instance:challenge.part3@18d87d80]" started-at="2022-02-03T18:18:53 IST" name="addProduct" finished-at="2022-02-03T18:18:55 IST" duration-ms="2801" status="PASS">
+        <test-method signature="addProduct()[pri:0, instance:challenge.part3@18d87d80]" started-at="2022-02-03T20:14:56 IST" name="addProduct" finished-at="2022-02-03T20:14:59 IST" duration-ms="3040" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:challenge.part3@18d87d80]" started-at="2022-02-03T18:18:55 IST" name="tearDown" finished-at="2022-02-03T18:18:56 IST" duration-ms="536" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:challenge.part3@18d87d80]" started-at="2022-02-03T20:14:59 IST" name="tearDown" finished-at="2022-02-03T20:15:00 IST" duration-ms="507" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
